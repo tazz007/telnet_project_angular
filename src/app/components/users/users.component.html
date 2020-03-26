@@ -1,0 +1,9 @@
+<div style="text-align: center;">
+    <h3>add user</h3>
+    <form>
+        <input type="text" placeholder="nom" #nom/>
+        <input type="text"  placeholder="prénom" #pr/>
+        <input type="number" placeholder="age" #age/>
+        <div><button type="button" (click)="add(nom.value,pr.value,age.value)">Add</button></div>
+    </form>
+</div>

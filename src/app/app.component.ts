@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'telnet';
+  public array = [];
+  //public data = {nom: '', pr: '', age: ''};
 }
